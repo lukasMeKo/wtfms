@@ -1,0 +1,9 @@
+{
+    "$schema": "../schemas/category.json",
+    "name": "glove",
+    "properties": [
+        "description",
+        "size",
+        "ean13"
+    ]
+}

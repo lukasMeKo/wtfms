@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "description": "a category is a collection of properties",
+    "type":"object",
+    "properties": {
+        "id": {
+            "description": "id of the article",
+            "type": "string",
+            "pattern": "[-_0-9a-zA-Z]+"
+        },
+        "title": {
+            "description": "human readable name of the article",
+            "type": "string"
+        },
+        "description": {
+            "description": "long form text describing the article, probably html"
+        },
+        "properties": {
+            "type": "object",
+            "description": "properties of this category"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "description": "a category is a collection of properties",
+    "type":"object",
+    "properties": {
+        "name": {
+            "description": "name of the category",
+            "type": "string",
+            "pattern": "[-_0-9a-zA-Z]+"
+        },
+        "properties": {
+            "type": "array",
+            "description": "list of properties shared by artices of this category",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

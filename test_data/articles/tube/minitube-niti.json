@@ -1,0 +1,25 @@
+{
+    "$schema": "../../schemas/article.json",
+    "title": "niti rohr",
+    "description": "beste qually",
+    "properties": {
+        "wall_thickness": {
+            "nominal": 0.100,
+            "deviation": 0.010
+        },
+        "length": {
+            "nominal": 10000.000,
+            "deviation": 100.000
+        },
+        "tube_diameter": {
+            "inner": {
+                "nominal": 0.100,
+                "deviation": 0.010
+            },
+            "outer": {
+                "nominal": 0.200,
+                "deviation": 0.010
+            }
+        }
+    }
+}

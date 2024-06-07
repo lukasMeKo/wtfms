@@ -1,0 +1,10 @@
+{
+    "$schema": "../schemas/category.json",
+    "name": "tube",
+    "properties": [
+        "wall_thickness",
+        "tube_diameter",
+        "length",
+        "af_temperature"
+    ]
+}

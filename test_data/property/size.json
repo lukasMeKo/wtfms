@@ -1,0 +1,8 @@
+{
+    "$schema": "../schemas/property.json",
+    "name": "size",
+    "schema": {
+        "type": "string",
+        "enum": ["XXL", "XL", "L", "M", "S"]
+    }
+}

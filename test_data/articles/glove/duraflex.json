@@ -1,0 +1,9 @@
+{
+    "$schema": "../../schemas/article.json",
+    "title": "Duraflex",
+    "description": "Super Handschuh gerne wieder",
+    "properties": {
+        "size": "L",
+        "ean13": "1111111111111"
+    }
+}

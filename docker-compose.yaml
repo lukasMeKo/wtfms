@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  meilisearch_ui:
+    image: riccoxie/meilisearch-ui:latest
+    ports:
+      - "24900:24900"
+  meilisearch:
+    image: getmeili/meilisearch:v1.8
+    ports:
+      - "7700:7700"
